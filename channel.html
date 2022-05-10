@@ -588,8 +588,8 @@
     </aside>
 </div>
 <!--  Main content (channel)  -->
-<main class="xl:ml-64 md:ml-24 pt-14">
-    <div class="h-20 sm:h-32 md:h-40 xl:h-44 2xl:h-52 relative bg-center bg-cover" style="background-image: url('./night_city.jpg')">
+<main class="xl:ml-64 md:ml-24 pt-14 bg-gray-100">
+    <div class="h-20 sm:h-32 md:h-40 xl:h-44 2xl:h-80 relative bg-center bg-cover" style="background-image: url('./night_city.jpg')">
         <div class="absolute bottom-4 right-4 p-3 sm:p-2 bg-black bg-opacity-50 sm:bg-opacity-30">
             <a href="#" class="flex items-center">
                 <svg class="w-5 h-5 mr-2" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
@@ -601,48 +601,50 @@
             </a>
         </div>
     </div>
-    <div class="max-w-screen-2xl px-20 md:px-6 sm:px-14 pt-4">
-        <div class="mb-4 sm:mb-0 flex flex-col sm:flex-row justify-between items-start md:items-center">
-            <div class="flex md:items-center">
-                <img src="avatar1.jpg" alt="" class="hidden sm:inline w-16 h-16 mr-5 object-cover rounded-full">
-                <div>
-                    <div class="flex items-center">
-                        <span class="text-2xl text-gray-800">Life In Big City</span>
-                        <svg class="w-4 h-4 ml-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <div class="px-20 md:px-6 sm:px-14 pt-4 bg-gray-50">
+        <div class="max-w-screen-xl m-auto">
+            <div class="mb-4 sm:mb-0 flex flex-col sm:flex-row justify-between items-start md:items-center">
+                <div class="flex md:items-center">
+                    <img src="avatar1.jpg" alt="" class="hidden sm:inline w-16 h-16 mr-5 object-cover rounded-full">
+                    <div>
+                        <div class="flex items-center">
+                            <span class="text-2xl text-gray-800">Life In Big City</span>
+                            <svg class="w-4 h-4 ml-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div class="text-sm">120K subscribers</div>
                     </div>
-                    <div class="text-sm">120K subscribers</div>
                 </div>
+                <button class="mt-2 xl:mt-0 px-4 py-2 bg-red-600 text-white text-xs uppercase rounded-sm focus:outline-none">Subscription</button>
             </div>
-            <button class="mt-2 xl:mt-0 px-4 py-2 bg-red-600 text-white text-xs uppercase rounded-sm focus:outline-none">Subscription</button>
-        </div>
-        <div class="flex items-center">
-            <nav class="mt-2">
-                <a href="#" class="inline-block px-6 py-3 uppercase text-xs font-medium text-gray-900 border-b-2 border-gray-700">
-                    Home
-                </a>
-                <a href="#" class="inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
-                    Videos
-                </a>
-                <a href="#" class="hidden sm:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
-                    Playlists
-                </a>
-                <a href="#" class="hidden sm:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
-                    Community
-                </a>
-                <a href="#" class="hidden sm:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
-                    Channels
-                </a>
-                <a href="#" class="hidden md:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
-                    About
-                </a>
-            </nav>
-            <div class="hidden xl:flex items-center ml-6">
-                <svg class="w-4 h-4 mr-2 mt-1.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                <label><input type="text" placeholder="Search" class="w-36 py-1 border-b border-gray-700 text-xs bg-transparent focus:outline-none"></label>
+            <div class="flex items-center">
+                <nav class="mt-2">
+                    <a href="#" class="inline-block px-6 py-3 uppercase text-xs font-medium text-gray-900 border-b-2 border-gray-700">
+                        Home
+                    </a>
+                    <a href="#" class="inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
+                        Videos
+                    </a>
+                    <a href="#" class="hidden sm:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
+                        Playlists
+                    </a>
+                    <a href="#" class="hidden sm:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
+                        Community
+                    </a>
+                    <a href="#" class="hidden sm:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
+                        Channels
+                    </a>
+                    <a href="#" class="hidden md:inline-block px-6 py-3 uppercase text-xs font-medium text-gray-500 hover:text-gray-900">
+                        About
+                    </a>
+                </nav>
+                <div class="hidden xl:flex items-center ml-6">
+                    <svg class="w-4 h-4 mr-2 mt-1.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    <label><input type="text" placeholder="Search" class="w-36 py-1 border-b border-gray-700 text-xs bg-transparent focus:outline-none"></label>
+                </div>
             </div>
         </div>
     </div>
-    <div class="px-20 sm:px-14 md:px-6 bg-gray-100">
+    <div class="max-w-screen-xl m-auto px-20 sm:px-14 md:px-6 2xl:px-0">
         <div class="flex flex-col md:flex-row py-6">
             <img src="https://picsum.photos/seed/picsum/720/404" alt="" class="sm:max-w-sm max-h-60">
             <div class="md:pl-6 mt-3 md:mt-0 max-w-md flex flex-col justify-between items-start">
@@ -765,6 +767,29 @@
                 <a href="#" class="group hidden xl:inline">
                     <div class="relative">
                         <img src="https://picsum.photos/seed/image5/720/404" alt="">
+                        <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 m-1 p-1 bg-black text-white rounded-sm">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </span>
+                        <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 m-1 p-1 bg-black text-white rounded-sm">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                        </span>
+                        <span class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 m-1 p-1 bg-black text-white rounded-sm text-xs font-semibold">
+                            6:35
+                        </span>
+                    </div>
+                    <div class="flex items-start mt-3">
+                        <div class="text-xs">
+                            <span class="font-semibold text-gray-800">Video Title 1</span>
+                            <div class="mt-1.5">1K views &middot; 1 day ago</div>
+                        </div>
+                        <button class="opacity-0 group-hover:opacity-100 -mt-1 ml-auto p-1 text-gray-500 hover:text-gray-700 focus:outline-none">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+                        </button>
+                    </div>
+                </a>
+                    <a href="#" class="group hidden 2xl:inline">
+                    <div class="relative">
+                        <img src="https://picsum.photos/seed/image12/720/404" alt="">
                         <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 m-1 p-1 bg-black text-white rounded-sm">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </span>
@@ -919,6 +944,29 @@
                             </button>
                         </div>
                     </a>
+                    <a href="#" class="group hidden 2xl:inline">
+                        <div class="relative">
+                            <img src="https://picsum.photos/seed/image13/720/404" alt="">
+                            <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 m-1 p-1 bg-black text-white rounded-sm">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </span>
+                            <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 m-1 p-1 bg-black text-white rounded-sm">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                        </span>
+                            <span class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 m-1 p-1 bg-black text-white rounded-sm text-xs font-semibold">
+                            6:35
+                        </span>
+                        </div>
+                        <div class="flex items-start mt-3">
+                            <div class="text-xs">
+                                <span class="font-semibold text-gray-800">Video Title 1</span>
+                                <div class="mt-1.5">1K views &middot; 1 day ago</div>
+                            </div>
+                            <button class="opacity-0 group-hover:opacity-100 -mt-1 ml-auto p-1 text-gray-500 hover:text-gray-700 focus:outline-none">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+                            </button>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -931,14 +979,14 @@
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             </a>
             <div class="flex my-6">
-                <div class="w-full sm:w-1/3 md:w-1/4 xl:w-1/5 flex flex-col items-center">
+                <div class="w-full sm:w-1/3 md:w-1/4 xl:w-1/5 2xl:w-1/6 flex flex-col items-center">
                     <a href="#" class="w-full flex flex-col items-center">
                         <img src="https://picsum.photos/seed/avatar1/256" alt="" class="w-24 rounded-full">
                         <span class="mt-2 mb-4 font-semibold text-gray-800 text-xs">Channel name</span>
                     </a>
                     <button class="py-1 px-2 text-xs font-medium bg-gray-200 uppercase rounded-sm">Subscribe</button>
                 </div>
-                <div class="hidden sm:w-1/3 md:w-1/4 xl:w-1/5 sm:flex flex-col items-center">
+                <div class="hidden sm:w-1/3 md:w-1/4 xl:w-1/5 2xl:w-1/6 sm:flex flex-col items-center">
                     <a href="#" class="w-full flex flex-col items-center">
                         <img src="https://picsum.photos/seed/avatar2/256" alt="" class="w-24 rounded-full">
                         <span class="mt-2 mb-4 font-semibold text-gray-800 text-xs">Channel name</span>
